@@ -6,5 +6,11 @@ const msg = ref('from parent');
 
 </script>
 <template>
+  <!-- Component -->
+   <ChildComp />
+
+
+
+  <!-- Slots -->
   <ChildComp>Message:{{ msg }}</ChildComp>
 </template>
